@@ -23,7 +23,7 @@ Cents_part  Total_Amount % 100 # Retrive the Cents part
 
 print(f"The total of two amounts is € {Euro_part}.{Cents_part:02d}") # print the total amount in Euro and cents upto two decimal places
 
-### References
+## References
 1. Python comments : https://www.w3schools.com/python/python_comments.asp
 2. Python Variables: https://www.w3schools.com/python/python_variables.asp
 3. Python Numbers: https://www.w3schools.com/python/python_numbers.asp
