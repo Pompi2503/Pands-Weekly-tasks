@@ -8,8 +8,8 @@ amt2 = int(input("Enter Second amount in cents: "))
 Total_Amount = amt1 + amt2
 # Convert Cents to Euros
 # First retrieve the Euro part
-Euro_part = Total_Amount//100
+Euro_part = Total_Amount // 100
 # Retrieve cents part
-Cents_part = Total_Amount%100
+Cents_part = Total_Amount % 100
 # Print total amount in Euro and cents upto 2 decimal places
 print(f"The total of two amounts is € {Euro_part}.{Cents_part:02d}")
