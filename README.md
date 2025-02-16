@@ -12,8 +12,8 @@ This python program, prompts the use to enter two amounts in cents, add them, an
   Enter second amount in cents:
   Total:
 ## Code Implementation
-# Print an outcome of addition of two amounts in Euro denomination with upto two decimal points
-# Author Deepika
+### Print an outcome of addition of two amounts in Euro denomination with upto two decimal points
+### Author Deepika
 # Input first amount
 amt1 = int(input ("Enter first amount in cents: "))
 amt2 = int(input ("Enter Second amount in cents: "))
