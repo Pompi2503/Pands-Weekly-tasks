@@ -9,7 +9,7 @@ if len(acc_num) == 10:
 # prints the account number first 6 digit masked      
       print("Visible Account number:", visible_acc)
 else:
- # print error if account number do not meet length requirements    
+# print error if account number do not meet length requirements    
       print("Invalid account number! Enter correct account number.")
 
 

@@ -39,9 +39,7 @@ This python program, prompts the use to enter 10 character a/c number and replac
  1. The program will prompt user 10 char account number 
  2. It will then mask first 6 digits with X and displays last 4 digits
 ## Program Output
-  
-  
-  Total:
+  Visible Account Num = XXXXXX1234
 ## Code Implementation
 ``` python
 # Run a program that reads in a 10-character a/c number and replaces first 6 digits with X and show last 4
@@ -64,3 +62,79 @@ else:
 3. Python if else: https://www.w3schools.com/python/python_conditions.asp
 4. Python Arithmetic Operators: https://www.w3schools.com/python/python_operators.asp
 5. Python String Slicing: https://www.w3schools.com/python/python_strings_slicing.asp
+
+# Week04 Task
+
+## Overview 
+This program implements the Collatz sequence using a function collatz(n) and prompts the user to enter a positive integer to generate the sequence.
+
+## Requirements
+ Python, Visual Studio and Jupyter notebook (for running interactively)
+## Usage
+1.This program is a simple way to explore a famous unsolved mathematical problem.
+2 Enters a positive integer when prompted and the program outputs the sequence follwoing collatz rules.
+3. The sequence stops when 1 is reached.
+
+## Program Output
+
+## Code Implementation
+     # collatz.py
+     # Author Deepika Gusain
+    # This implement Collatz conjecture
+    # Function to calculate the next value in the Collatz sequence
+    def collatz(n):
+    while n != 1:
+      print(n, end=" ")  # Print the current value, with space between numbers
+      if n % 2 == 0:     # If the number is even
+            n = n // 2
+      else:              # If the number is odd
+            n = 3 * n + 1
+    print(1)  # Finally print 1, as the sequence ends when the value reaches 1
+
+    # Main Program
+    def main():
+    # Prompt user to input a positive integer
+    number = int(input("Please enter a positive integer: "))
+    
+    # Validate input (check if the number is positive)
+    if number <= 0:
+      print("Please enter a positive integer greater than 0.")
+    else:
+      collatz(number)  # Call the collatz function to generate the sequence
+
+     # Run the program
+     if __name__ == "__main__":
+      main()
+## References
+1. Python comments : https://www.w3schools.com/python/python_comments.asp
+2. Python Variables: https://www.w3schools.com/python/python_variables.asp
+3. Collatz Conjecture: Wikipedia
+4. Python Integer Division (//): Python Docs
+5. Conditionals in Python: Python If-Else
+
+# Week05 Task
+## Overview 
+This programs check whether today is a weekday or weekend
+## Requirements
+ Python, Visual Studio and Jupyter notebook (for running interactively)
+## Usage
+ The program will check on today's day
+## Program Output
+ ("Yes, unfortunately today is a weekday") if it is a weekday and ("It is the weekend") if it is weekend.
+## Code Implementation
+``` python
+# program to check whether today is a weekday or a weekend
+# this will import datetime module to access current date
+import datetime
+# Retrive today's day of the week
+today = datetime.datetime.today().weekday()
+# check if weekday or weekend
+if today < 5:
+    print("Yes, unfortunately today is a weekday")
+else:
+    print("It is the weekend")
+## References
+1.Python datetime Module: https://docs.python.org/3/library/datetime.html
+2.Python weekday() Method: https://docs.python.org/3/library/datetime.html#datetime.date.weekday
+3.Python Conditional Statements: https://docs.python.org/3/tutorial/controlflow.html
+
