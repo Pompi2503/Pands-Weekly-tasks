@@ -203,7 +203,6 @@ while True:# User input loop to ensure valid positive number
 
 result = sqrt(user_input)  #Calculate square root approximation
 
-# Display output
 print(f"The square root of {user_input} is approx. {result:.1f}.") # Display output to 1 decimal point
 ```
 
