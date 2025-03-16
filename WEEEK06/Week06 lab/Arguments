@@ -1,0 +1,6 @@
+# pass list as argument and return values
+def function(number):
+    for x in number:
+        print(4 * x)  
+number = [1, 2, 23, 45]
+function(number)
