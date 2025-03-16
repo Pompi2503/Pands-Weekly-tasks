@@ -156,7 +156,9 @@ else:
 2.Python weekday() Method: https://docs.python.org/3/library/datetime.html#datetime.date.weekday
 3.Python Conditional Statements: https://docs.python.org/3/tutorial/controlflow.html
 
-# Week06 Task
+
+
+## WEEK06 Task
 
 ## Overview 
 This program calculated the square root of a positive floating number by using Newton's method
@@ -179,8 +181,10 @@ The square root of 14.5 is approx. 3.8.
 # Function is defined to calculate approx, square root of a positive floating number 
 # function sqrt is defined with arument number and tolerance parameter which sets the level of precision
 def sqrt(number, tolerance=1e-6):
+
 # Intiate guess on the assumption that most number guess is half of the number
     result = number / 2.0 
+
 # It controls the loop in Newton's method and ensure that the iteration continues untill the approximatiin is accuateg enough
     while abs(result * result - number) > tolerance:
 # this ensures that new approximation is more accurate by averaging the current and alternative guess
@@ -219,5 +223,3 @@ print(f"The square root of {user_input} is approx. {result:.1f}.")
 2. https://www.w3schools.com/python/python_functions.asp
 3. https://www.w3schools.com/python/python_try_except.asp
 4. https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
-
-
