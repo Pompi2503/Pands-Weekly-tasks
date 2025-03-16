@@ -149,7 +149,7 @@ if today < 5:
     print("Yes, unfortunately today is a weekday")
 else:
     print("It is the weekend")
-
+```
 
 ## References
 1.Python datetime Module: https://docs.python.org/3/library/datetime.html
@@ -157,5 +157,4 @@ else:
 3.Python Conditional Statements: https://docs.python.org/3/tutorial/controlflow.html
 
 
-# WEEK06 Task
 
