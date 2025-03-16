@@ -156,5 +156,70 @@ else:
 2.Python weekday() Method: https://docs.python.org/3/library/datetime.html#datetime.date.weekday
 3.Python Conditional Statements: https://docs.python.org/3/tutorial/controlflow.html
 
+# WEEK06 Task
+
+## Overview 
+This program calculated the square root of a positive floating number by using Newton's method.
+
+# Requirements
+Python and Jupyter notebook (for running interactively)
+
+## Purpose
+1.This program will define the fucntion to calculate approximate square root of the positive floating number using Newtons's method, by taking parameters number whose sqaure root is to be approximated and  tolerance (stopping condition for approximation is 1e-6).Lower the tolerance, higher the iteration and precision in the output it delivers. Newton's methos ian iterative program that starts with initial guess and refines it. The initial guess for the square root is number/2.0 for many number, their actual square roos is close to half of the number.
+2.Newton's method starts with an initial guess and iteratively refines it by averaging the entered number and the current estimate, effectively finding the midpoint between them. This process continues until the approximation reaches the desired accuracy, as defined by the set tolerance.
+3. User input handling is performed using try-except to ensure that the user enters a valid positive number.It handles error if user enters a negative number by asking again to enter input.
+4. The reuslt is computed by calling function sqrt and printing the result to 1 decimal place.
+
+## Program Output
+Please enter a positive number: 14.5
+The square root of 14.5 is approx. 3.8.
+
+## Code Implementation
+`` python
+# Function is defined to calculate approx, square root of a positive floating number 
+# function sqrt is defined with arument number and tolerance parameter which sets the level of precision
+def sqrt(number, tolerance=1e-6):
+
+# Intiate guess on the assumption that most number guess is half of the number
+    result = number / 2.0 
+
+# It controls the loop in Newton's method and ensure that the iteration continues untill the approximatiin is accuateg enough
+    while abs(result * result - number) > tolerance:
+# this ensures that new approximation is more accurate by averaging the current and alternative guess
+# It then calculates midpoint between the two estimates
+        result = (result + number / result) / 2.0 
+# Return the final apporximate result
+    return result
+
+# User input loop to ensure valid positive number 
+while True:
+
+# try-except statement is used to ensure the program does not crash if the user enter the invalid input 
+    try:
+# Take input
+        user_input = float(input("Please enter a positive number: ")) 
+# If loop used checks  if input less than 0, it will proint error      
+        if user_input <= 0:
+            print("Error: Please enter a positive number.")
+# Prompt again to enter number
+            continue
+# It will exit looping when valid input is entered
+        break
+# Try-expect part is part of exception handling
+    except ValueError:
+        print("Error: Invalid input. Please enter a valid floating-point number.")
+
+# Calculate square root approximation
+result = sqrt(user_input)
+
+# Display output
+print(f"The square root of {user_input} is approx. {result:.1f}.")
+```
+
+## References
+1. https://www.w3schools.com/python/python_while_loops.asp)
+2. https://www.w3schools.com/python/python_functions.asp
+3. https://www.w3schools.com/python/python_try_except.asp
+4. https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
 
 
