@@ -91,8 +91,8 @@ This program implements the Collatz sequence using a function collatz(n) and pro
 ## Program Output
 
 ## Code Implementation
-     # collatz.py
-     # Author Deepika Gusain
+    # collatz.py
+    # Author Deepika Gusain
     # This implement Collatz conjecture
     # Function to calculate the next value in the Collatz sequence
     def collatz(n):
@@ -213,5 +213,6 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 3. https://www.w3schools.com/python/python_try_except.asp
 4. https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
 
+# WEEK07
 
 
