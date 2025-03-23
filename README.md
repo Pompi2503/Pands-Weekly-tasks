@@ -215,4 +215,33 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 
 # WEEK07
 
+## Overview
 
+## Reuirements
+
+
+## Purpose
+
+
+## Program Output
+
+
+## Code Implementation
+
+
+## References
+
+# WEEK08
+
+## Overview
+
+## Requirements
+
+## Purpose
+
+## Program Output
+
+
+## Code Implementation
+
+## Refrences
