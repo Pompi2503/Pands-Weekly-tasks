@@ -84,7 +84,7 @@ This program implements the Collatz sequence using a function collatz(n) and pro
  Python, Visual Studio and Jupyter notebook (for running interactively)
 
 ## Usage
-1.This program is a simple way to explore a famous unsolved mathematical problem.
+1. This program is a simple way to explore a famous unsolved mathematical problem.
 2. Enters a positive integer when prompted and the program outputs the sequence follwoing collatz rules.
 3. The sequence stops when 1 is reached.
 
