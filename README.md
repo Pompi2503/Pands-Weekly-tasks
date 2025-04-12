@@ -128,9 +128,10 @@ This program implements the Collatz sequence using a function collatz(n) and pro
 ## References
 1. Python comments : https://www.w3schools.com/python/python_comments.asp
 2. Python Variables: https://www.w3schools.com/python/python_variables.asp
-3. Collatz Conjecture: Wikipedia
-4. Python Integer Division (//): Python Docs
-5. Conditionals in Python: Python If-Else
+3. Collatz Conjecture:https://en.wikipedia.org/wiki/Collatz_conjecture  
+4. Python Integer Division (//):https://stackoverflow.com/questions/19507808/python-3-integer-division
+5. COnditionals in Python:https://www.geeksforgeeks.org/python-if-else/  
+
 
 <br>
 <br>
@@ -288,7 +289,6 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 
 
 ## Code Implementation
-
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -311,6 +311,7 @@ plt.legend()
 plt.grid(True)
 plt.savefig('plot.png')
 plt.show()
+```
 
 ## References  
 1. https://numpy.org/doc/stable/  
@@ -325,6 +326,5 @@ plt.show()
 10.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.grid.html  
 11.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html  
 12.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html  
-
 
 
