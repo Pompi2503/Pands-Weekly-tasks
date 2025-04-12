@@ -323,8 +323,8 @@ plt.show()
 7. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html  
 8. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html  
 9. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html  
-10.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.grid.html  
-11.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html  
-12.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html  
+10.https://www.geeksforgeeks.org/python-if-else/  
+11.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html    
+12.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html    
 
 
