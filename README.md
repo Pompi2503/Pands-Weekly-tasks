@@ -233,20 +233,33 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 # WEEK07
 
 ## Overview
+- This program is written to read a text file and count the number of time letter "e" occurs.  
+- It takes the filename as command line argument.  
+- It will deal with error handling and non-existing files and invalid formats.  
 
-## Reuirements
-
+## Requirements
+- Python 3.11  
+- .txt fiel with content  
+- Import sys to use to used to access command line arguments. 
 
 ## Purpose
-
+- It will read from txt file in python.  
+- Perform error handling and file manipulations.  
 
 ## Program Output
+
 
 
 ## Code Implementation
 
 
-## References
+## References  
+1.https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/  
+2.https://www.w3schools.com/python/python_file_handling.asp  
+3.https://www.geeksforgeeks.org/python-exception-handling/  
+4.https://www.w3schools.com/python/ref_string_count.asp  
+5.https://docs.python.org/3/library/os.path.html#os.path.isfile  
+
 
 <br>
 <br>
