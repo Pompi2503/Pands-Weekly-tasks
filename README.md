@@ -312,18 +312,5 @@ plt.grid(True)
 plt.savefig('plot.png')
 plt.show()
 
-## References  
-1. https://numpy.org/doc/stable/  
-2. https://matplotlib.org/stable/ 
-3. https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html  
-4. https://numpy.org/doc/stable/reference/generated/numpy.linspace.html  
-5. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html  
-6. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html  
-7. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html  
-8. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html  
-9. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html  
-10.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.grid.html  
-11.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html  
-12.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html  
- 
+
 
