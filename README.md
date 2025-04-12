@@ -78,6 +78,9 @@ else:
 4. Python Arithmetic Operators: https://www.w3schools.com/python/python_operators.asp
 5. Python String Slicing: https://www.w3schools.com/python/python_strings_slicing.asp
 
+<br>
+<br>
+
 # Week04 Task
 
 ## Overview 
@@ -129,18 +132,23 @@ This program implements the Collatz sequence using a function collatz(n) and pro
 4. Python Integer Division (//): Python Docs
 5. Conditionals in Python: Python If-Else
 
+<br>
+<br>
+
 # Week05 Task
+
 ## Overview 
 This programs check whether today is a weekday or weekend
 
 ## Requirements
- Python, Visual Studio and Jupyter notebook (for running interactively)
+Python, Visual Studio and Jupyter notebook (for running interactively)
 
 ## Usage
- The program will check on today's day
+The program will check on today's day.
 
 ## Program Output
  ("Yes, unfortunately today is a weekday") if it is a weekday and ("It is the weekend") if it is weekend.
+
 ## Code Implementation
 ``` python
 # program to check whether today is a weekday or a weekend
@@ -160,7 +168,8 @@ else:
 2.Python weekday() Method: https://docs.python.org/3/library/datetime.html  
 3.Python Conditional Statements: https://docs.python.org/3/tutorial/controlflow.html  
 
-
+<br>
+<br>
 
 # WEEK06 Task
 
@@ -218,8 +227,8 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 3. https://www.w3schools.com/python/python_try_except.asp
 4. https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
 
-
-
+<br>
+<br>
 
 # WEEK07
 
@@ -238,6 +247,9 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 
 
 ## References
+
+<br>
+<br>
 
 # WEEK08
 
