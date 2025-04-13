@@ -364,10 +364,10 @@ plt.show()
 6. Info on X label:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html  
 7. Info on y label:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html  
 8. For info on title:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html  
-9. for info on legend:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html  
-10. for info on if-else loop:https://www.geeksforgeeks.org/python-if-else/  
+9. For info on legend:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html  
+10. For info on if-else loop:https://www.geeksforgeeks.org/python-if-else/  
 11. On saving plot as png:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html  
 12. Display plot:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html    
- 
+
 
 
