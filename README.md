@@ -356,17 +356,18 @@ plt.show()
 ```
 
 ## References  
-1. https://numpy.org/doc/stable/  
-2. https://matplotlib.org/stable/ 
-3. https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html  
-4. https://numpy.org/doc/stable/reference/generated/numpy.linspace.html  
-5. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html  
-6. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html  
-7. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html  
-8. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html  
-9. https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html 
-10.https://www.geeksforgeeks.org/python-if-else/ 
-11.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html 
-12.https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html    
+1. For info on Numpy:https://numpy.org/doc/stable/  
+2. For info on Matplotlib for plotting:https://matplotlib.org/stable/ 
+3. Random Module:https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html  
+4. Linspace fucntion:https://numpy.org/doc/stable/reference/generated/numpy.linspace.html  
+5. Info on plot:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html  
+6. Info on X label:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xlabel.html  
+7. Info on y label:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.ylabel.html  
+8. For info on title:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.title.html  
+9. for info on legend:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html  
+10. for info on if-else loop:https://www.geeksforgeeks.org/python-if-else/  
+11. On saving plot as png:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.savefig.html  
+12. Display plot:https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.show.html    
+ 
 
 
