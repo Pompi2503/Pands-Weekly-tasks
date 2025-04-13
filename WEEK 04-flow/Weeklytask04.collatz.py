@@ -1,9 +1,6 @@
 # collatz.py
 # Author Deepika Gusain
 # This implement Collatz conjecture
-# collatz.py
-# This program implements the Collatz Conjecture
-# Author: Your Name
 
 # Function to calculate and print the Collatz sequence
 def collatz(n):
