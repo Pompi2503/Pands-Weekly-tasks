@@ -297,7 +297,7 @@ if __name__ == "__main__":
 2.https://www.w3schools.com/python/python_file_handling.asp  
 3.https://www.geeksforgeeks.org/python-exception-handling/  
 4.https://www.w3schools.com/python/ref_string_count.asp  
-5.https://docs.python.org/3/library/os.path.html#os.path.isfile 
+5.https://docs.python.org/3/library/os.path.html#os.path.isfile  
 6.https://docs.python.org/3/library/__main__.html  
 7.https://docs.python.org/3/library/exceptions.html#UnicodeDecodeError  
 8.https://docs.python.org/3/library/stdtypes.html#str.count  
