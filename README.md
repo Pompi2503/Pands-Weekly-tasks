@@ -299,8 +299,8 @@ if __name__ == "__main__":
 4.For infor on  string count: https://www.w3schools.com/python/ref_string_count.asp  
 5.For infor on os, to check invalid file:https://docs.python.org/3/library/os.path.html#os.path.isfile  
 6.For info on _main_:https://docs.python.org/3/library/__main__.html  
-7.For info on Unicodeerrod: https://docs.python.org/3/library/exceptions.html
-8.https://docs.python.org/3/library/stdtypes.html
+7.For info on Unicodeerrod: https://docs.python.org/3/library/exceptions.html  
+8.https://docs.python.org/3/library/stdtypes.html  
 9.Source of text file: https://www.gutenberg.org/cache/epub/2701/pg2701.txt  
 
 
