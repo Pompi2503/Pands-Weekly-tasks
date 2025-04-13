@@ -223,10 +223,10 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 ```
 
 ## References
-1. https://www.w3schools.com/python/python_while_loops.asp)
-2. https://www.w3schools.com/python/python_functions.asp
-3. https://www.w3schools.com/python/python_try_except.asp
-4. https://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
+1. For While loop:https://www.w3schools.com/python/python_while_loops.asp)
+2. for info on fucntins:https://www.w3schools.com/python/python_functions.asp
+3. For info on try except error handling: https://www.w3schools.com/python/python_try_except.asp
+4. For square root, babylonian method: https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
 
 <br>
 <br>
@@ -237,6 +237,8 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 - This program is written to read a text file and count the number of time letter "e" occurs.  
 - It takes the filename as command line argument.  
 - It will deal with error handling and non-existing files and invalid formats.  
+- I used extracted txt file from Project Gutenberg and saved as moby-dick.txt.  
+
 
 ## Requirements
 - Python 3.11  
@@ -252,14 +254,54 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 
 
 ## Code Implementation
+```python
+import sys
+import os
 
+def count_e(filename):
+
+    try:
+        with open(filename, 'r', encoding='utf-8') as file:# encoding ensures file is read as txt file
+            text = file.read()
+
+            return text.lower().count('e')
+
+    except FileNotFoundError:
+        print(f"Error: The file '{filename}' was not found.")
+        return None
+    
+    except IsADirectoryError:
+        print(f"Error: '{filename}' is a directory, not a file.")
+        return None
+
+    except UnicodeDecodeError:
+        print(f"Error: The file '{filename}' is not a valid text file.")
+        return None
+
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2: 
+        print("Usage: python count_e.py <filename>") 
+    else:
+        filename = sys.argv[1] 
+        e_count = count_e(filename) 
+        if e_count is not None:         
+            print(f"The number of 'e' characters in '{filename}' is: {e_count}") 
+```
 
 ## References  
 1.https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/  
 2.https://www.w3schools.com/python/python_file_handling.asp  
 3.https://www.geeksforgeeks.org/python-exception-handling/  
 4.https://www.w3schools.com/python/ref_string_count.asp  
-5.https://docs.python.org/3/library/os.path.html#os.path.isfile  
+5.https://docs.python.org/3/library/os.path.html#os.path.isfile 
+6.https://docs.python.org/3/library/__main__.html  
+7.https://docs.python.org/3/library/exceptions.html#UnicodeDecodeError  
+8.https://docs.python.org/3/library/stdtypes.html#str.count  
+9.https://www.gutenberg.org/cache/epub/2701/pg2701.txt  
 
 
 <br>
