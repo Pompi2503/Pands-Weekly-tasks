@@ -128,9 +128,9 @@ This program implements the Collatz sequence using a function collatz(n) and pro
 ## References
 1. Python comments : https://www.w3schools.com/python/python_comments.asp
 2. Python Variables: https://www.w3schools.com/python/python_variables.asp
-3. Collatz Conjecture:https://en.wikipedia.org/wiki/Collatz_conjecture  
-4. Python Integer Division (//):https://stackoverflow.com/questions/19507808/python-3-integer-division
-5. COnditionals in Python:https://www.geeksforgeeks.org/python-if-else/  
+3. Collatz Conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture  
+4. Python Integer Division (//): https://stackoverflow.com/questions/19507808/python-3-integer-division
+5. COnditionals in Python: https://www.geeksforgeeks.org/python-if-else/  
 
 
 <br>
@@ -223,8 +223,8 @@ print(f"The square root of {user_input} is approx. {result:.1f}.") # Display out
 ```
 
 ## References
-1. For While loop:https://www.w3schools.com/python/python_while_loops.asp)
-2. for info on fucntins:https://www.w3schools.com/python/python_functions.asp
+1. For While loop: https://www.w3schools.com/python/python_while_loops.asp)
+2. for info on fucntins: https://www.w3schools.com/python/python_functions.asp
 3. For info on try except error handling: https://www.w3schools.com/python/python_try_except.asp
 4. For square root, babylonian method: https://en.wikipedia.org/wiki/Methods_of_computing_square_roots
 
@@ -294,13 +294,13 @@ if __name__ == "__main__":
 
 ## References  
 1.For info on sys-argv: https://www.geeksforgeeks.org/how-to-use-sys-argv-in-python/  
-2.For inf on file handling:https://www.w3schools.com/python/python_file_handling.asp  
-3.for info on exception handling:https://www.geeksforgeeks.org/python-exception-handling/  
+2.For inf on file handling: https://www.w3schools.com/python/python_file_handling.asp  
+3.for info on exception handling: https://www.geeksforgeeks.org/python-exception-handling/  
 4.For infor on  string count: https://www.w3schools.com/python/ref_string_count.asp  
-5.For infor on os, to check invalid file:https://docs.python.org/3/library/os.path.html#os.path.isfile  
-6.For info on _main_:https://docs.python.org/3/library/__main__.html  
+5.For infor on os, to check invalid file: https://docs.python.org/3/library/os.path.html#os.path.isfile  
+6.For info on _main_: https://docs.python.org/3/library/__main__.html  
 7.For info on Unicodeerrod: https://docs.python.org/3/library/exceptions.html  
-8.https://docs.python.org/3/library/stdtypes.html  
+8. https://docs.python.org/3/library/stdtypes.html  
 9.Source of text file: https://www.gutenberg.org/cache/epub/2701/pg2701.txt  
 
 
