@@ -5,17 +5,21 @@
 import numpy as np
 # import matplotlib for plotting (https://matplotlib.org/stable/)
 import matplotlib.pyplot as plt
-# to generate 1000 values from a normal ditribition with mean=5, std=2(https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html)
+# to generate 1000 values from a normal ditribition with mean=5, std=2
+# (https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html)
 mean = 5
 std_dev = 2
 num_samples = 1000
 normal_data = np.random.normal(mean, std_dev, num_samples)
-# to plot function x^3, take 100 values with 0 to 10 using linspace (https://numpy.org/doc/stable/reference/generated/numpy.linspace.html)
+# to plot function x^3, take 100 values with 0 to 10 using linspace
+# (https://numpy.org/doc/stable/reference/generated/numpy.linspace.html)
 x = np.linspace(0, 10, 100)
 # use element wise power operations (https://numpy.org/doc/stable/user/basics.broadcasting.html)
 h_x = x**3
-# figure method is used to set figure size for bettwe visualisation (# Reference: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html)
+# figure method is used to set figure size for bettwe visualisation 
+# Reference: https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.figure.html)
 plt.figure(figsize=(8, 6))
+
 # ploting of histogram with arguments as array of normal_data, bins=30 to divide data in 30 bins
 # alpha = .6 to set transparenct to 60%
 # color to add blue color
